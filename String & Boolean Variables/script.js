@@ -8,4 +8,4 @@ var isStudent =true; // boolean variable
 
 var firstName = "Tabitha"; // string variable
 
-var phrase = 'I don\'t know'; 
+var phrase = 'I don\'t know' \n You\'ll have to speak with the professor';
