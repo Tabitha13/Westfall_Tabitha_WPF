@@ -4,3 +4,6 @@
 var yearBorn = 1994;
 
 console.log(yearBorn);
+console.log("Hello World");
+
+alert(yearBorn);
