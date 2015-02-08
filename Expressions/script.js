@@ -4,8 +4,14 @@
 
 //Expressions
 
-var a = 2; // sets up our variable a and defines it with 2
+//var a = 2; // sets up our variable a and defines it with 2
 
 
-a = a + 3; //add 3 to a
-console.log(a);
+//a = a + 3; //add 3 to a
+//console.log(a);
+
+var yearBorn = 1994;
+
+var age = 2014 - yearBorn;
+
+console.log(age);
