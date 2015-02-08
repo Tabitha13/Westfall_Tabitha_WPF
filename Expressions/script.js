@@ -17,7 +17,6 @@
 
 
 //area of the triangle is half of the width times the height
-
 //var width = 7;
 //var height = 8;
 //var area = width * height/2;
@@ -42,6 +41,12 @@
 //console.log(perimeter);
 
 //arrays in expressions
-var orangeBins = [234, 567, 883];
-var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
-console.log(total);
+//var orangeBins = [234, 567, 883];
+//var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+//console.log(total);
+
+//concatenating combining strings
+var firstName = "Tabitha";
+var lastName = "Westfall";
+var fullName = firstName +" " + lastName;
+console.log(fullName);
