@@ -27,6 +27,7 @@
 //console.log(remainder);
 
 
+
 //order of operations
 //var quiz1 = 87;
 //var quiz2 = 100;
@@ -46,7 +47,12 @@
 //console.log(total);
 
 //concatenating combining strings
-var firstName = "Tabitha";
-var lastName = "Westfall";
-var fullName = firstName +" " + lastName;
-console.log(fullName);
+//var firstName = "Tabitha";
+//var lastName = "Westfall";
+//var fullName = firstName +" " + lastName;
+//console.log(fullName);
+
+var a = "6";
+var b = "7";
+var result = a +b;
+console.log(result);
