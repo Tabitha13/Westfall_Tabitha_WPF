@@ -25,7 +25,7 @@ if(netWorth === true) { //this runs if i click ok for having $100
 }
 
 
-
+//IT WORKS!! SORRY I'M VERY HAPPY. (:
 
 
 
