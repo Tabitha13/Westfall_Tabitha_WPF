@@ -21,7 +21,7 @@ if(netWorth === true) { //this runs if i click ok for having $100
     var actualNetWorth = prompt("How much money do you have?"); //finds out how much money i have
     var moneyNeed = 100;
     var saveAmount = moneyNeed - actualNetWorth; //math
-    (actualNetWorth) ? console.log("You need to save $" + saveAmount + " before you can get more shoes.") : console.log("Hey you didn't enter how much money you have");
+    (actualNetWorth) ? console.log("You need to save $" + saveAmount + " before you can get more shoes.") : prompt("Hey you didn't enter how much money you have. Please enter it now");
 }
 
 
