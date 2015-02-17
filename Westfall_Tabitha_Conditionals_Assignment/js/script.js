@@ -7,3 +7,7 @@ var netWorth = true;
 
 //confirm boolean variable
 netWorth = confirm("If you have at least $100 click OK, if not click cancel");
+
+if(netWorth === true && pairsOfShoes <= donateShoes){
+    console.log("You can buy more shoes!!")
+}
