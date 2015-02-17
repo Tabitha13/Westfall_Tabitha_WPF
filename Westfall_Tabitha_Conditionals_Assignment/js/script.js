@@ -23,6 +23,7 @@ if(netWorth === true) {
         if(actualNetWorth === ""){
             console.log("Hey you didn't enter how much money you have")
         }else{
-            var saveAmount
+            var saveAmount = netWorth - actualNetWorth;
+            console.log=("You need to save $" + saveAmount + " before you can get more shoes.")
         }
 }
