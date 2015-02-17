@@ -12,12 +12,18 @@
 //}
 
 //nesting
-if(sunny){
-    goToTheBeach();
+//if(sunny){
+    //goToTheBeach();
 
-    if(warmWater) {
-        wearNewSuit();
-    }
-} else{
+   // if(warmWater) {
+    //    wearNewSuit();
+  //  }
+//} else{
+    //goToTheMovies();
+//}
+
+if(sunny) {
+    goToTheBeach();
+}else{
     goToTheMovies();
 }
