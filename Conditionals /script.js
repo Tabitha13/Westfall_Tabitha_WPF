@@ -45,12 +45,21 @@
 //}
 
 //Logical Operators
-var budget = 300;
-var iPhonePrice = 199.99;
-var payCheck = 200;
+//var budget = 300;
+//var iPhonePrice = 199.99;
+//var payCheck = 200;
 //if price of phone is less our budget AND if our paycheck is over 300
-if(iPhonePrice < budget && payCheck > 300){
-    console.log("We can buy the phone");
+//if(iPhonePrice < budget && payCheck > 300){
+//    console.log("We can buy the phone");
+//else{
+//    console.log("NO phone for you");
+//}
+
+//Ternary
+if(Condition){
+    do if true;
 }else{
-    console.log("NO phone for you");
+    do if false;
 }
+
+(condition) ? do if true : do if false;
