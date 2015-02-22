@@ -1,4 +1,5 @@
 //Tabitha Westfall 2/22 Loops
+
 console.log('-----Loops-----')
 var b = 50; // setups the index
 
@@ -16,3 +17,9 @@ do{
     c--;
 }
 while(c > 0);
+
+console.log("-----For Loops----");
+
+for (var i = 10; i > 0; i--){
+    console.log(i + "kegs on the wall");
+}
