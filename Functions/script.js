@@ -20,13 +20,13 @@ function outputMsg(){
     console.log("Hello World");
 }
 
+var width = 5; //scoped outside of function
+
 function calcArea(){ //sets up what function does
-    var width = 20;
+    var width = 20; //prefers to use var inside its own function
     var height = 30;
     var area = width * height;
-    console.log(area);
+  //  console.log(area);
 }
-
-calcArea(); //invocates function
-calcArea(); //repeatable
-calcArea(); //tells machine when to do function
+console.log(width);
+calcArea();
