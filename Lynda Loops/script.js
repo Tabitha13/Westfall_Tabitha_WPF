@@ -23,7 +23,7 @@ for (var i = 1; i < 5000 ; i++) { //sets up index, checks condition and incremen
     //do stuff
     //do stuff
    if (i % 5 == 0) {
-       continue;
+       continue; // done with this itteration
    }
     //do second set of stuff
     //do second set of stuff
