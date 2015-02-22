@@ -12,7 +12,7 @@ console.log("-----Do While Loop-----");
 var c = 10;
 
 do{
-    console.log(c + "kegs on the wall");
+    console.log(c + "kegs on the wall"); //this code would still be ran if condition is false
     c--;
 }
 while(c > 0);
