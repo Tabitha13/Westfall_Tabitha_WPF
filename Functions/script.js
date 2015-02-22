@@ -46,7 +46,7 @@
 
 //parameters and arguments
 
-function dogYears(age){
+function dogYears(age){ //parameters
     var dogYears = age * 7;
     console.log("Sparky is " + dogYears + " years old.")
 }
