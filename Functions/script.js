@@ -15,13 +15,18 @@
     //code the function runs
 //}
 
+
 function outputMsg(){
     console.log("Hello World");
 }
 
-function calcArea(){
+function calcArea(){ //sets up what function does
     var width = 20;
     var height = 30;
     var area = width * height;
     console.log(area);
 }
+
+calcArea(); //invocates function
+calcArea(); //repeatable
+calcArea(); //tells machine when to do function
