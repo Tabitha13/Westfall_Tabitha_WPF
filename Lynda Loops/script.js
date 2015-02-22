@@ -19,13 +19,14 @@
   //  i++; // increments the index
 //}
 
-for (var i = 1; i < 10 ; i++) { //sets up index, checks condition and increments it
+for (var i = 1; i < 5000 ; i++) { //sets up index, checks condition and increments it
     //do stuff
     //do stuff
-   if (i == 101) {
-       break;//break will break us out of loop
+   if (i % 5 == 0) {
+       continue;
    }
-    //do stuff
+    //do second set of stuff
+    //do second set of stuff
 }
 
 
