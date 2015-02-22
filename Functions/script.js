@@ -16,17 +16,40 @@
 //}
 
 
-function outputMsg(){
-    console.log("Hello World");
-}
+//function outputMsg(){
+ //   console.log("Hello World");
+//}
 
-var width = 5; //scoped outside of function
+//var width = 5; //scoped outside of function
 
-function calcArea(){ //sets up what function does
-    var width = 20; //prefers to use var inside its own function
-    var height = 30;
-    var area = width * height;
+//function calcArea(){ //sets up what function does
+ //   var width = 20; //prefers to use var inside its own function
+  //  var height = 30;
+  //  var area = width * height;
   //  console.log(area);
+//}
+//console.log(width);
+//calcArea();
+
+
+//funcName (argument1, argument2);
+//function funcName (parameter1, parameter2){
+    //code the function runs
+//}
+
+//calArea(30, 20); //argument
+
+//function calArea(w, h){ //parameter w=30 h=20
+//    var area = w * h;
+ //   console.log(area);
+//}
+
+//parameters and arguments
+
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.")
 }
-console.log(width);
-calcArea();
+var age1 = 4;
+dogYears(age1); // () holds arguments
+dogYears(5);
