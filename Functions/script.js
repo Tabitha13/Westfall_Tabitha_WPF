@@ -57,12 +57,29 @@
 
 //Returning Values
 
-var total = calcArea(30, 20);
+//var total = calcArea(30, 20);
 
 
-function calcArea(w, h){
-    var area = w * h;
-    return area; //function is spitting the info out
+//function calcArea(w, h){
+ //   var area = w * h;
+ //   return area; //function is spitting the info out
+//}
+
+//console.log(total);
+
+
+
+
+//Function vs Procedure
+
+//function
+function calcAreaF(width, height){
+    var area = width * height;
+    return area;
 }
 
-console.log(total);
+//procedure
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area), //no return
+}
