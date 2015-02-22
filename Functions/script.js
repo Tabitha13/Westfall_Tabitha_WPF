@@ -73,13 +73,38 @@
 //Function vs Procedure
 
 //function
-function calcAreaF(width, height){
+//function calcAreaF(width, height){
+ //   var area = width * height;
+ //   return area;
+//}
+
+//procedure
+//function calcAreaP(width, height){
+  //  var area = width * height;
+  //  console.log(area); //no return
+//}
+
+//anonymous functions also called closures
+//are functions created as the code is run
+
+//function functionName(){
+
+//}
+
+
+//Anonymous Functions
+
+//var functionName = function(){ //anonymous
+    //code to run
+//}
+
+
+var calcArea = function(width, height){ //have to define function before use
+//code function runs
     var area = width * height;
     return area;
 }
 
-//procedure
-function calcAreaP(width, height){
-    var area = width * height;
-    console.log(area); //no return
-}
+var a = calcArea(20, 30); //invoke after defining
+
+console.log(a);
