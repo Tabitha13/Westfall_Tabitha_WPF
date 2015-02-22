@@ -9,12 +9,19 @@
 //} while ( a < 10); //block will always be executed at least once before it is checked
 
 
-var i =1; //set up the index
+//var i =1; //set up the index
 
-while (i < 10) { //checks the condition
+//while (i < 10) { //checks the condition
     //do stuff
     //do stuff
     //do stuff
     //etc...
-    i++; // increments the index
+  //  i++; // increments the index
+//}
+
+for (var i = 1; i < 10 ; i++) { //sets up index, checks condition and increments it
+    //do stuff
+    //do stuff
+    //do stuff
+    //etc...
 }
