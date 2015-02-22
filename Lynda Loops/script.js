@@ -22,6 +22,11 @@
 for (var i = 1; i < 10 ; i++) { //sets up index, checks condition and increments it
     //do stuff
     //do stuff
+   if (i == 101) {
+       break;//break will break us out of loop
+   }
     //do stuff
-    //etc...
 }
+
+
+
