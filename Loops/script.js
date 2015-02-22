@@ -1,8 +1,8 @@
 //Tabitha Westfall 2/22 Loops
 console.log('-----Loops-----')
-var b = 50;
+var b = 50; // setups the index
 
-while ( b > 0){
+while ( b > 0){ //checks the condition
     console.log(b + "kegs on the wall");
-    b--; //increment
+    b--; //increments or decrements the index
 }
