@@ -5,10 +5,9 @@ var pi = 3.14; // given
 
 
 var circ = calcCirc(radius, pi); //result variable //arguements
-console.log("The circumference of the circle is " + circ + "."); //print circumference to console
+console.log("The circumference of the circle is " + Math.round(circ) + "."); //print circumference to console
 
 function calcCirc(r, p){ //parameters
     return 2 * r * p; //equation to find circ
 }
 
-//works but waiting to learn how to stop the repeating decimal
