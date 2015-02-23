@@ -11,4 +11,4 @@ function calcCirc(r, p){ //parameters
     return 2 * r * p; //equation to find circ
 }
 
-//works but waiting to learn how to stop the repeating decimal 
+//works but waiting to learn how to stop the repeating decimal
