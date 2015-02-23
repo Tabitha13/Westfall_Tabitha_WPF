@@ -2,3 +2,5 @@
 
 var victimsWeight = 120; //given
 
+var beeStings = calcStings(weight, stings); // argument
+
