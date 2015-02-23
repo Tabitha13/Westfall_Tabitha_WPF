@@ -6,7 +6,7 @@ var stings = 8.666666667; //given
 var beeStings = calcStings(victimWeight, stings); // argument
 console.log("It takes " +  Math.round(beeStings) + " bee stings to kill this animal.");
 
-function calcStings(vW, s ){
+function calcStings(vW, s ){ //parameters
     return vW* s;
 
 }
