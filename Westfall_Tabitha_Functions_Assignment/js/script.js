@@ -7,14 +7,14 @@ choice = confirm("Hello! If you would like numbers for the Florida Lottery pleas
 
 if(choice === true) {
 
-    function randomLotteryNum(min, max){
+    function randomLotteryNum(min, max){ //arguments
 
-        var lotteryArray = [];
+        var lotteryArray = []; //give me 6 numbers
 
-        for (var i = 0; i < 6; i++){
-            var lottery = Math.random() * (max - min) + min;
+        for (var i = 0; i < 6; i++){ // will run i until it equals 6
+            var lottery = Math.random() * (max - min) + min; //set up random number generator
 
-            lottery = Math.round(lottery);
+            lottery = Math.round(lottery); //
             lotteryArray[i] = lottery;
 
         }
@@ -24,7 +24,7 @@ if(choice === true) {
     }
     myNum = randomLotteryNum(1, 53);
 
-    console.log("Your random Lottery Numbers are: " +myNum  );
+    console.log("Your random Lottery Numbers are: " + myNum  );
 
 }else{
     function randomPowerballNum(min, max){
