@@ -34,7 +34,7 @@ if(choice === true) {
         for (var i = 0; i < 5; i++){
             var powerball = Math.random() * (max - min) + min;
 
-            powerball = Math.round(lottery);
+            powerball = Math.round(powerball);
             powerballArray [i] = powerball;
 
         }
@@ -50,3 +50,4 @@ if(choice === true) {
 
 //main code
 lotterNum = randomLotteryNum(1, 53);
+powerballNum = randomPowerballNum(1, 59);
